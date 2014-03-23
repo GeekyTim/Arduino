@@ -41,182 +41,187 @@
 
 byte f5[][5] = {
   {
-    B00000,B00000,B00000,B00000,B00000  }
+    B00000,B00000,B00000,B00000,B00000    }
   ,
   {
-    B00100,B00100,B00100,B00000,B00100  }
+    B00100,B00100,B00100,B00000,B00100    }
   ,
   {
-    B01010,B01010,B00000,B00000,B00000  }
+    B01010,B01010,B00000,B00000,B00000    }
   ,
   {
-    B01010,B11111,B01010,B11111,B01010  }
+    B01010,B11111,B01010,B11111,B01010    }
   ,
   {
-    B00110,B01100,B00100,B00110,B01100  }
+    B00110,B01100,B00100,B00110,B01100    }
   ,
   {
-    B10001,B00010,B00100,B01000,B10001  }
+    B10001,B00010,B00100,B01000,B10001    }
   ,
   {
-    B01000,B10100,B01010,B10100,B01010  }
+    B01000,B10100,B01010,B10100,B01010    }
   ,
   {
-    B00100,B00100,B00000,B00000,B00000  }
+    B00100,B00100,B00000,B00000,B00000    }
   ,
   {
-    B00100,B01000,B01000,B01000,B00100  }
+    B00100,B01000,B01000,B01000,B00100    }
   ,
   {
-    B01000,B00100,B00100,B00100,B01000  }
+    B01000,B00100,B00100,B00100,B01000    }
   ,
   {
-    B10101,B00100,B11111,B00100,B10101  }
+    B10101,B00100,B11111,B00100,B10101    }
   ,
   {
-    B00000,B00100,B01110,B00100,B00000  }
+    B00000,B00100,B01110,B00100,B00000    }
   ,
   {
-    B00000,B00000,B00100,B00100,B01000  }
+    B00000,B00000,B00100,B00100,B01000    }
   ,
   {
-    B00000,B00000,B01110,B00000,B00000  }
+    B00000,B00000,B01110,B00000,B00000    }
   ,
   {
-    B00000,B00000,B00000,B01100,B01100  }
+    B00000,B00000,B00000,B01100,B01100    }
   ,
   {
-    B00001,B00010,B00100,B01000,B10000  }
+    B00001,B00010,B00100,B01000,B10000    }
   ,
   {
-    B01100,B10010,B10010,B10010,B01100  }
+    B01100,B10010,B10010,B10010,B01100    }
   ,
   {
-    B00100,B01100,B00100,B00100,B01110  }
+    B00100,B01100,B00100,B00100,B01110    }
   ,
   {
-    B01100,B10010,B00100,B01000,B11110  }
+    B01100,B10010,B00100,B01000,B11110    }
   ,
   {
-    B01100,B00010,B00100,B00010,B01100  }
+    B01100,B00010,B00100,B00010,B01100    }
   ,
   {
-    B00100,B01100,B10100,B11110,B00100  }
+    B00100,B01100,B10100,B11110,B00100    }
   ,
   {
-    B11110,B10000,B11100,B00010,B11100  }
+    B11110,B10000,B11100,B00010,B11100    }
   ,
   {
-    B01100,B10000,B11100,B10010,B01100  }
+    B01100,B10000,B11100,B10010,B01100    }
   ,
   {
-    B11110,B00010,B00100,B01000,B01000  }
+    B11110,B00010,B00100,B01000,B01000    }
   ,
   {
-    B01100,B10010,B01100,B10010,B01100  }
+    B01100,B10010,B01100,B10010,B01100    }
   ,
   {
-    B01100,B10010,B01110,B00010,B01100  }
+    B01100,B10010,B01110,B00010,B01100    }
   ,
   {
-    B00000,B00100,B00000,B00100,B00000  }
+    B00000,B00100,B00000,B00100,B00000    }
   ,
   {
-    B00000,B00100,B00000,B00100,B01000  }
+    B00000,B00100,B00000,B00100,B01000    }
   ,
   {
-    B00010,B00100,B01000,B00100,B00010  }
+    B00010,B00100,B01000,B00100,B00010    }
   ,
   {
-    B00000,B01110,B00000,B01110,B00000  }
+    B00000,B01110,B00000,B01110,B00000    }
   ,
   {
-    B01000,B00100,B00010,B00100,B01000  }
+    B01000,B00100,B00010,B00100,B01000    }
   ,
   {
-    B00100,B01010,B00010,B00100,B00100  }
+    B00100,B01010,B00010,B00100,B00100    }
   ,
   {
-    B01110,B10001,B10101,B10000,B01110  }
+    B01110,B10001,B10101,B10000,B01110    }
   ,
   {
-    B01100,B10010,B11110,B10010,B10010  }
+    B01100,B10010,B11110,B10010,B10010    }
   ,
   {
-    B11100,B10010,B11100,B10010,B11100  }
+    B11100,B10010,B11100,B10010,B11100    }
   ,
   {
-    B01100,B10010,B10000,B10010,B01100  }
+    B01100,B10010,B10000,B10010,B01100    }
   ,
   {
-    B11100,B10010,B10010,B10010,B11100  }
+    B11100,B10010,B10010,B10010,B11100    }
   ,
   {
-    B11110,B10000,B11100,B10000,B11110  }
+    B11110,B10000,B11100,B10000,B11110    }
   ,
   {
-    B11110,B10000,B11100,B10000,B10000  }
+    B11110,B10000,B11100,B10000,B10000    }
   ,
   {
-    B01100,B10010,B10000,B10110,B01100  }
+    B01100,B10010,B10000,B10110,B01100    }
   ,
   {
-    B10010,B10010,B11110,B10010,B10010  }
+    B10010,B10010,B11110,B10010,B10010    }
   ,
   {
-    B01110,B00100,B00100,B00100,B01110  }
+    B01110,B00100,B00100,B00100,B01110    }
   ,
   {
-    B01110,B00100,B00100,B10100,B01000  }
+    B01110,B00100,B00100,B10100,B01000    }
   ,
   {
-    B10010,B10100,B11000,B10100,B10010  }
+    B10010,B10100,B11000,B10100,B10010    }
   ,
   {
-    B01000,B01000,B01000,B01000,B01110  }
+    B01000,B01000,B01000,B01000,B01110    }
   ,
   {
-    B10001,B11011,B10101,B10001,B10001  }
+    B10001,B11011,B10101,B10001,B10001    }
   ,
   {
-    B11010,B11010,B10110,B10110,B10010  }
+    B11010,B11010,B10110,B10110,B10010    }
   ,
   {
-    B01100,B10010,B10010,B10010,B01100  }
+    B01100,B10010,B10010,B10010,B01100    }
   ,
   {
-    B11100,B10010,B11100,B10000,B10000  }
+    B11100,B10010,B11100,B10000,B10000    }
   ,
   {
-    B01100,B10010,B10010,B10010,B01101  }
+    B01100,B10010,B10010,B10010,B01101    }
   ,
   {
-    B11100,B10010,B11100,B10100,B10010  }
+    B11100,B10010,B11100,B10100,B10010    }
   ,
   {
-    B01100,B10000,B01100,B00010,B11100  }
+    B01100,B10000,B01100,B00010,B11100    }
   ,
   {
-    B01110,B00100,B00100,B00100,B00100  }
+    B01110,B00100,B00100,B00100,B00100    }
   ,
   {
-    B10010,B10010,B10010,B10010,B01100  }
+    B10010,B10010,B10010,B10010,B01100    }
   ,
   {
-    B10010,B10010,B10010,B01100,B01100  }
+    B10010,B10010,B10010,B01100,B01100    }
   ,
   {
-    B10001,B10001,B10101,B11011,B10001  }
+    B10001,B10001,B10101,B11011,B10001    }
   ,
   {
-    B10001,B01010,B00100,B01010,B10001  }
+    B10001,B01010,B00100,B01010,B10001    }
   ,
   {
-    B10001,B10001,B01110,B00100,B00100  }
+    B10001,B10001,B01110,B00100,B00100    }
   ,
   {
-    B11110,B00010,B01100,B10000,B11110  }
+    B11110,B00010,B01100,B10000,B11110    }
 };
+
+#define revRED 16711680
+#define revGREEN 65280
+#define revBLUE 255
+
 // Don't forget to connect the ground wire to Arduino ground,
 // and the +5V wire to a +5V supply
 
@@ -226,6 +231,7 @@ Adafruit_WS2801 strip = Adafruit_WS2801((uint16_t)5, (uint16_t)5, WS2801_RGB);
 
 void setup() {
   strip.begin();
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -238,7 +244,7 @@ void loop() {
   // scrollLetterUp('B', 'A', Color(0, 0, 128), Color(0, 0, 0), 5000);
 
 
-  scrollStringUp(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 500);
+/*  scrollStringUp(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 500);
   delay(1000);
   scrollStringLeft(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
   delay(1000);
@@ -249,6 +255,9 @@ void loop() {
   scrollStringUp(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
   delay(1000);
   scrollStringLeft(" Potton Pi & Pints ", Color(128, 0, 0), Color(0, 0, 0), 500);
+  delay(1000);*/
+  
+  drawLetterFadeToBG('A', Color(255, 0, 0), Color(0, 0,255), 10, 500);
   delay(1000);
 }
 
@@ -332,7 +341,6 @@ void scrollStringLeft(char *acString, uint32_t fgColour, uint32_t bgColour, int 
   }
 }
 
-
 void scrollStringUp(char *acString, uint32_t fgColour, uint32_t bgColour, int iLetterDuration)
 {
   int iStringLength;
@@ -380,6 +388,30 @@ void scrollLetterUp(char cChar1, char cChar2, uint32_t fgColour, uint32_t bgColo
   }
 }
 
+void drawLetterFadeToBG(char cChar, uint32_t fgColour, uint32_t bgColour, int iSteps, int iDuration)
+{
+  int iColour, i, r, g, b;
+  float fFadeCol;
+  
+//  drawLetter(cChar, fgColour, bgColour);
+//  delay(iDuration);
+  for (i=0;i<iSteps;i++) {
+    fFadeCol = (float(iSteps)-i)/float(iSteps);
+
+    Serial.print(fgColour);
+    Serial.print(" - ");
+    Serial.println(reverseColour(fgColour, revRED)*fFadeCol);
+    
+    drawLetter(cChar, Color((reverseColour(fgColour, revRED)-reverseColour(bgColour, revRED))*fFadeCol,
+                            (reverseColour(fgColour, revGREEN)-reverseColour(bgColour, revGREEN))*fFadeCol,
+                            (reverseColour(fgColour, revBLUE)-reverseColour(bgColour, revBLUE))*fFadeCol),
+                            bgColour);
+    delay(iDuration);
+  }
+//  drawLetter(' ', fgColour, bgColour);
+//    delay(iDuration);
+
+}
 
 /* Helper functions */
 
@@ -392,6 +424,21 @@ uint32_t Color(byte r, byte g, byte b)
   c |= g;
   c <<= 8;
   c |= b;
+  return c;
+}
+
+byte reverseColour(uint32_t Colour, uint32_t RGB)
+{
+  uint32_t c;
+
+  c = Colour & RGB;
+  if (RGB>=revRED) {
+    c >>= 8;
+  }
+  if (RGB>=revGREEN) {
+    c >>= 8;
+  }
+
   return c;
 }
 
@@ -411,6 +458,7 @@ uint32_t Wheel(byte WheelPos)
     return Color(0, WheelPos * 3, 255 - WheelPos * 3);
   }
 }
+
 
 
 
