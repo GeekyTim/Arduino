@@ -256,8 +256,8 @@ void loop() {
    delay(1000);
    scrollStringLeft(" Potton Pi & Pints ", Color(128, 0, 0), Color(0, 0, 0), 500);
    delay(1000);*/
+   drawStringFade("Potton Pi & Pints", Color(128, 0, 0), Color(0, 128, 128), 10, 50, 500);
 
-  drawLetterFade('A', Color(255, 0, 0), Color(0, 120,0), 10, 500, 500);
   delay(1000);
 }
 
@@ -429,7 +429,7 @@ void drawLetterFade(char cChar, uint32_t fgColour, uint32_t bgColour, int iSteps
   drawLetterFadeToBG(cChar, fgColour, bgColour, iSteps, iStepDelay);
 }
 
-void drawStringFade(char *acString, uint32_t fgColour, uint32_t bgColour, int iLetterDuration)
+void drawStringFade(char *acString, uint32_t fgColour, uint32_t bgColour, int iSteps, int iStepDelay, int iHold)
 {
   int iStringLength;
   int iCount;
@@ -437,9 +437,9 @@ void drawStringFade(char *acString, uint32_t fgColour, uint32_t bgColour, int iL
   acString = strupr(acString);
   iStringLength = strlen(acString)-1;
 
-  for (iCount=0;iCount<iStringLength;iCount++)
+  for (iCount=0;iCount<=iStringLength;iCount++)
   {
-    scrollLetterLeft(acString[iCount], acString[iCount+1], fgColour, bgColour, iLetterDuration);
+    drawLetterFade(acString[iCount], fgColour, bgColour, iSteps, iStepDelay, iHold);
   }
 }
 
