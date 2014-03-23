@@ -1,0 +1,18 @@
+int ReverseColor(long Color, long revColor)
+{
+  long c;
+
+  c = Color & revColor;
+  
+  if (revColor>=revGREEN) {
+    c >>= 8;
+  }
+	lr_message("%d", c);
+
+  if (revColor>=revRED) {
+    c >>= 8;
+  }
+	lr_message("%d", c);
+
+  return c;
+}
