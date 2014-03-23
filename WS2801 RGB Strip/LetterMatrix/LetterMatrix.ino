@@ -41,181 +41,181 @@
 
 byte f5[][5] = {
   {
-    B00000,B00000,B00000,B00000,B00000    }
+    B00000,B00000,B00000,B00000,B00000        }
   ,
   {
-    B00100,B00100,B00100,B00000,B00100    }
+    B00100,B00100,B00100,B00000,B00100        }
   ,
   {
-    B01010,B01010,B00000,B00000,B00000    }
+    B01010,B01010,B00000,B00000,B00000        }
   ,
   {
-    B01010,B11111,B01010,B11111,B01010    }
+    B01010,B11111,B01010,B11111,B01010        }
   ,
   {
-    B00110,B01100,B00100,B00110,B01100    }
+    B00110,B01100,B00100,B00110,B01100        }
   ,
   {
-    B10001,B00010,B00100,B01000,B10001    }
+    B10001,B00010,B00100,B01000,B10001        }
   ,
   {
-    B01000,B10100,B01010,B10100,B01010    }
+    B01000,B10100,B01010,B10100,B01010        }
   ,
   {
-    B00100,B00100,B00000,B00000,B00000    }
+    B00100,B00100,B00000,B00000,B00000        }
   ,
   {
-    B00100,B01000,B01000,B01000,B00100    }
+    B00100,B01000,B01000,B01000,B00100        }
   ,
   {
-    B01000,B00100,B00100,B00100,B01000    }
+    B01000,B00100,B00100,B00100,B01000        }
   ,
   {
-    B10101,B00100,B11111,B00100,B10101    }
+    B10101,B00100,B11111,B00100,B10101        }
   ,
   {
-    B00000,B00100,B01110,B00100,B00000    }
+    B00000,B00100,B01110,B00100,B00000        }
   ,
   {
-    B00000,B00000,B00100,B00100,B01000    }
+    B00000,B00000,B00100,B00100,B01000        }
   ,
   {
-    B00000,B00000,B01110,B00000,B00000    }
+    B00000,B00000,B01110,B00000,B00000        }
   ,
   {
-    B00000,B00000,B00000,B01100,B01100    }
+    B00000,B00000,B00000,B01100,B01100        }
   ,
   {
-    B00001,B00010,B00100,B01000,B10000    }
+    B00001,B00010,B00100,B01000,B10000        }
   ,
   {
-    B01100,B10010,B10010,B10010,B01100    }
+    B01100,B10010,B10010,B10010,B01100        }
   ,
   {
-    B00100,B01100,B00100,B00100,B01110    }
+    B00100,B01100,B00100,B00100,B01110        }
   ,
   {
-    B01100,B10010,B00100,B01000,B11110    }
+    B01100,B10010,B00100,B01000,B11110        }
   ,
   {
-    B01100,B00010,B00100,B00010,B01100    }
+    B01100,B00010,B00100,B00010,B01100        }
   ,
   {
-    B00100,B01100,B10100,B11110,B00100    }
+    B00100,B01100,B10100,B11110,B00100        }
   ,
   {
-    B11110,B10000,B11100,B00010,B11100    }
+    B11110,B10000,B11100,B00010,B11100        }
   ,
   {
-    B01100,B10000,B11100,B10010,B01100    }
+    B01100,B10000,B11100,B10010,B01100        }
   ,
   {
-    B11110,B00010,B00100,B01000,B01000    }
+    B11110,B00010,B00100,B01000,B01000        }
   ,
   {
-    B01100,B10010,B01100,B10010,B01100    }
+    B01100,B10010,B01100,B10010,B01100        }
   ,
   {
-    B01100,B10010,B01110,B00010,B01100    }
+    B01100,B10010,B01110,B00010,B01100        }
   ,
   {
-    B00000,B00100,B00000,B00100,B00000    }
+    B00000,B00100,B00000,B00100,B00000        }
   ,
   {
-    B00000,B00100,B00000,B00100,B01000    }
+    B00000,B00100,B00000,B00100,B01000        }
   ,
   {
-    B00010,B00100,B01000,B00100,B00010    }
+    B00010,B00100,B01000,B00100,B00010        }
   ,
   {
-    B00000,B01110,B00000,B01110,B00000    }
+    B00000,B01110,B00000,B01110,B00000        }
   ,
   {
-    B01000,B00100,B00010,B00100,B01000    }
+    B01000,B00100,B00010,B00100,B01000        }
   ,
   {
-    B00100,B01010,B00010,B00100,B00100    }
+    B00100,B01010,B00010,B00100,B00100        }
   ,
   {
-    B01110,B10001,B10101,B10000,B01110    }
+    B01110,B10001,B10101,B10000,B01110        }
   ,
   {
-    B01100,B10010,B11110,B10010,B10010    }
+    B01100,B10010,B11110,B10010,B10010        }
   ,
   {
-    B11100,B10010,B11100,B10010,B11100    }
+    B11100,B10010,B11100,B10010,B11100        }
   ,
   {
-    B01100,B10010,B10000,B10010,B01100    }
+    B01100,B10010,B10000,B10010,B01100        }
   ,
   {
-    B11100,B10010,B10010,B10010,B11100    }
+    B11100,B10010,B10010,B10010,B11100        }
   ,
   {
-    B11110,B10000,B11100,B10000,B11110    }
+    B11110,B10000,B11100,B10000,B11110        }
   ,
   {
-    B11110,B10000,B11100,B10000,B10000    }
+    B11110,B10000,B11100,B10000,B10000        }
   ,
   {
-    B01100,B10010,B10000,B10110,B01100    }
+    B01100,B10010,B10000,B10110,B01100        }
   ,
   {
-    B10010,B10010,B11110,B10010,B10010    }
+    B10010,B10010,B11110,B10010,B10010        }
   ,
   {
-    B01110,B00100,B00100,B00100,B01110    }
+    B01110,B00100,B00100,B00100,B01110        }
   ,
   {
-    B01110,B00100,B00100,B10100,B01000    }
+    B01110,B00100,B00100,B10100,B01000        }
   ,
   {
-    B10010,B10100,B11000,B10100,B10010    }
+    B10010,B10100,B11000,B10100,B10010        }
   ,
   {
-    B01000,B01000,B01000,B01000,B01110    }
+    B01000,B01000,B01000,B01000,B01110        }
   ,
   {
-    B10001,B11011,B10101,B10001,B10001    }
+    B10001,B11011,B10101,B10001,B10001        }
   ,
   {
-    B11010,B11010,B10110,B10110,B10010    }
+    B11010,B11010,B10110,B10110,B10010        }
   ,
   {
-    B01100,B10010,B10010,B10010,B01100    }
+    B01100,B10010,B10010,B10010,B01100        }
   ,
   {
-    B11100,B10010,B11100,B10000,B10000    }
+    B11100,B10010,B11100,B10000,B10000        }
   ,
   {
-    B01100,B10010,B10010,B10010,B01101    }
+    B01100,B10010,B10010,B10010,B01101        }
   ,
   {
-    B11100,B10010,B11100,B10100,B10010    }
+    B11100,B10010,B11100,B10100,B10010        }
   ,
   {
-    B01100,B10000,B01100,B00010,B11100    }
+    B01100,B10000,B01100,B00010,B11100        }
   ,
   {
-    B01110,B00100,B00100,B00100,B00100    }
+    B01110,B00100,B00100,B00100,B00100        }
   ,
   {
-    B10010,B10010,B10010,B10010,B01100    }
+    B10010,B10010,B10010,B10010,B01100        }
   ,
   {
-    B10010,B10010,B10010,B01100,B01100    }
+    B10010,B10010,B10010,B01100,B01100        }
   ,
   {
-    B10001,B10001,B10101,B11011,B10001    }
+    B10001,B10001,B10101,B11011,B10001        }
   ,
   {
-    B10001,B01010,B00100,B01010,B10001    }
+    B10001,B01010,B00100,B01010,B10001        }
   ,
   {
-    B10001,B10001,B01110,B00100,B00100    }
+    B10001,B10001,B01110,B00100,B00100        }
   ,
   {
-    B11110,B00010,B01100,B10000,B11110    }
+    B11110,B00010,B01100,B10000,B11110        }
 };
 
 #define revRED 16711680
@@ -244,20 +244,20 @@ void loop() {
   // scrollLetterUp('B', 'A', Color(0, 0, 128), Color(0, 0, 0), 5000);
 
 
-/*  scrollStringUp(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 500);
-  delay(1000);
-  scrollStringLeft(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
-  delay(1000);
-  scrollStringUp(" Potton Pi & Pints ", Color(128, 0, 0), Color(0, 0, 0), 500);
-  delay(1000);
-  scrollStringLeft(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 500);
-  delay(1000);
-  scrollStringUp(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
-  delay(1000);
-  scrollStringLeft(" Potton Pi & Pints ", Color(128, 0, 0), Color(0, 0, 0), 500);
-  delay(1000);*/
-  
-  drawLetterFadeToBG('A', Color(255, 0, 0), Color(0, 0,255), 10, 500);
+  /*  scrollStringUp(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 500);
+   delay(1000);
+   scrollStringLeft(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
+   delay(1000);
+   scrollStringUp(" Potton Pi & Pints ", Color(128, 0, 0), Color(0, 0, 0), 500);
+   delay(1000);
+   scrollStringLeft(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 500);
+   delay(1000);
+   scrollStringUp(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
+   delay(1000);
+   scrollStringLeft(" Potton Pi & Pints ", Color(128, 0, 0), Color(0, 0, 0), 500);
+   delay(1000);*/
+
+  drawLetterFade('A', Color(255, 0, 0), Color(0, 120,0), 10, 500, 500);
   delay(1000);
 }
 
@@ -388,29 +388,59 @@ void scrollLetterUp(char cChar1, char cChar2, uint32_t fgColour, uint32_t bgColo
   }
 }
 
-void drawLetterFadeToBG(char cChar, uint32_t fgColour, uint32_t bgColour, int iSteps, int iDuration)
+void drawLetterFadeToBG(char cChar, uint32_t fgColour, uint32_t bgColour, int iSteps, int iStepDelay)
 {
-  int iColour, i, r, g, b;
-  float fFadeCol;
-  
-//  drawLetter(cChar, fgColour, bgColour);
-//  delay(iDuration);
-  for (i=0;i<iSteps;i++) {
-    fFadeCol = (float(iSteps)-i)/float(iSteps);
+  int i;
+  int fr, fg, fb;
 
-    Serial.print(fgColour);
-    Serial.print(" - ");
-    Serial.println(reverseColour(fgColour, revRED)*fFadeCol);
-    
-    drawLetter(cChar, Color((reverseColour(fgColour, revRED)-reverseColour(bgColour, revRED))*fFadeCol,
-                            (reverseColour(fgColour, revGREEN)-reverseColour(bgColour, revGREEN))*fFadeCol,
-                            (reverseColour(fgColour, revBLUE)-reverseColour(bgColour, revBLUE))*fFadeCol),
-                            bgColour);
-    delay(iDuration);
+  drawLetter(cChar, fgColour, bgColour);
+  for (i=0;i<=iSteps;i++) {
+    fr=reverseColour(fgColour, revRED);
+    fg=reverseColour(fgColour, revGREEN);
+    fb=reverseColour(fgColour, revBLUE);
+
+    drawLetter(cChar, Color(fr-i*(fr-reverseColour(bgColour, revRED))/iSteps, fg-i*(fg-reverseColour(bgColour, revGREEN))/iSteps, fb-i*(fb-reverseColour(bgColour, revBLUE))/iSteps), bgColour);
+    delay(iStepDelay);
   }
-//  drawLetter(' ', fgColour, bgColour);
-//    delay(iDuration);
+  drawLetter(' ', fgColour, bgColour);
+}
 
+void drawLetterFadeFromGB(char cChar, uint32_t fgColour, uint32_t bgColour, int iSteps, int iStepDelay)
+{
+  int i;
+  int fr, fg, fb;
+
+  drawLetter(' ', fgColour, bgColour);
+  for (i=iSteps-1;i>=0;i--) {
+    fr=reverseColour(fgColour, revRED);
+    fg=reverseColour(fgColour, revGREEN);
+    fb=reverseColour(fgColour, revBLUE);
+    
+    drawLetter(cChar, Color(fr-i*(fr-reverseColour(bgColour, revRED))/iSteps, fg-i*(fg-reverseColour(bgColour, revGREEN))/iSteps, fb-i*(fb-reverseColour(bgColour, revBLUE))/iSteps), bgColour);
+    delay(iStepDelay);
+  }
+  drawLetter(cChar, fgColour, bgColour);
+}
+
+void drawLetterFade(char cChar, uint32_t fgColour, uint32_t bgColour, int iSteps, int iStepDelay, int iHold)
+{
+  drawLetterFadeFromGB(cChar, fgColour, bgColour, iSteps, iStepDelay);
+  delay(iHold);
+  drawLetterFadeToBG(cChar, fgColour, bgColour, iSteps, iStepDelay);
+}
+
+void drawStringFade(char *acString, uint32_t fgColour, uint32_t bgColour, int iLetterDuration)
+{
+  int iStringLength;
+  int iCount;
+
+  acString = strupr(acString);
+  iStringLength = strlen(acString)-1;
+
+  for (iCount=0;iCount<iStringLength;iCount++)
+  {
+    scrollLetterLeft(acString[iCount], acString[iCount+1], fgColour, bgColour, iLetterDuration);
+  }
 }
 
 /* Helper functions */
@@ -440,23 +470,6 @@ byte reverseColour(uint32_t Colour, uint32_t RGB)
   }
 
   return c;
-}
-
-//Input a value 0 to 255 to get a color value.
-//The colours are a transition r - g -b - back to r
-uint32_t Wheel(byte WheelPos)
-{
-  if (WheelPos < 85) {
-    return Color(WheelPos * 3, 255 - WheelPos * 3, 0);
-  } 
-  else if (WheelPos < 170) {
-    WheelPos -= 85;
-    return Color(255 - WheelPos * 3, 0, WheelPos * 3);
-  } 
-  else {
-    WheelPos -= 170; 
-    return Color(0, WheelPos * 3, 255 - WheelPos * 3);
-  }
 }
 
 
