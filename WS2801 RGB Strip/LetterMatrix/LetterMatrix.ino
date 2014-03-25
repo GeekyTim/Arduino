@@ -218,9 +218,77 @@ byte f5[][5] = {
     B11110,B00010,B01100,B10000,B11110                }
 };
 
+byte S5[][5] = {	
+	{B00000,B00000,B00000,B00000,B00000},
+	{B00000,B00000,B00100,B00000,B00000},
+	{B00000,B01110,B01010,B01110,B00000},
+	{B11111,B10001,B10001,B10001,B11111},
+	{B11111,B10001,B10101,B10001,B11111},
+	{B00000,B00000,B00000,B00000,B00000},
+	{B00000,B00000,B00100,B00000,B00000},
+	{B00000,B01010,B00100,B01010,B00000},
+	{B10001,B01010,B00100,B01010,B10001},
+	{B10001,B01010,B00000,B01010,B10001},
+	{B10001,B00000,B00000,B00000,B10001},
+	{B00000,B00000,B00000,B00000,B00000},
+	{B10000,B10000,B10000,B10000,B10000},
+	{B01000,B01000,B01000,B01000,B01000},
+	{B00100,B00100,B00100,B00100,B00100},
+	{B00010,B00010,B00010,B00010,B00010},
+	{B00001,B00001,B00001,B00001,B00001},
+	{B00000,B00000,B00000,B00000,B00000},
+	{B11111,B00000,B00000,B00000,B00000},
+	{B00000,B11111,B00000,B00000,B00000},
+	{B00000,B00000,B11111,B00000,B00000},
+	{B00000,B00000,B00000,B11111,B00000},
+	{B00000,B00000,B00000,B00000,B11111},
+	{B00000,B00000,B00000,B00000,B00000},
+	{B00000,B00000,B00100,B00000,B00000},
+	{B00000,B00100,B01110,B00100,B00000},
+	{B00000,B01110,B01110,B01110,B00000},
+	{B00100,B01110,B11111,B01110,B00100},
+	{B01110,B11111,B11111,B11111,B01110},
+	{B11111,B11111,B11111,B11111,B11111},
+	{B00000,B00000,B00000,B00000,B00000},
+	{B00001,B00000,B00000,B00000,B00000},
+	{B00010,B00001,B00000,B00000,B00000},
+	{B00100,B00010,B00001,B00000,B00000},
+	{B01000,B00100,B00010,B00001,B00000},
+	{B10000,B01000,B00100,B00010,B00001},
+	{B00000,B10000,B01000,B00100,B00010},
+	{B00000,B00000,B10000,B01000,B00100},
+	{B00000,B00000,B00000,B10000,B01000},
+	{B00000,B00000,B00000,B00000,B10000},
+	{B00000,B00000,B00000,B00000,B00000},
+	{B10000,B00000,B00000,B00000,B00000},
+	{B01000,B10000,B00000,B00000,B00000},
+	{B00100,B01000,B10000,B00000,B00000},
+	{B00010,B00100,B01000,B10000,B00000},
+	{B00001,B00010,B00100,B01000,B10000},
+	{B00000,B00001,B00010,B00100,B01000},
+	{B00000,B00000,B00001,B00010,B00100},
+	{B00000,B00000,B00000,B00001,B00010},
+	{B00000,B00000,B00000,B00000,B00001},
+	{B00000,B00000,B00000,B00000,B00000}};
+
 #define revRED 16711680
 #define revGREEN 65280
 #define revBLUE 255
+
+#define STARTSquare 0
+#define ENDSquare 3
+#define STARTStar 5
+#define ENDStar 11
+#define STARTVBar 11
+#define ENDVBar 17
+#define STARTHBar 17
+#define ENDHBar 23
+#define STARTCircle 23
+#define ENDCircle 30
+#define STARTDiag1 30
+#define ENDDiag1 40
+#define STARTDiag2 40
+#define ENDDiag2 50
 
 // Don't forget to connect the ground wire to Arduino ground,
 // and the +5V wire to a +5V supply
@@ -234,7 +302,28 @@ void setup() {
 }
 
 void loop() {
-  drawString(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
+  drawShapes(STARTSquare, ENDSquare, Color(0, 0, 128), Color(128, 0, 0), 100);
+  delay(1000);
+  
+  drawShapes(STARTStar, ENDStar, Color(0, 0, 128), Color(128, 0, 0), 100);
+  delay(1000);
+
+  drawShapes(STARTVBar, ENDVBar, Color(0, 0, 128), Color(128, 0, 0), 100);
+  delay(1000);
+
+  drawShapes(STARTHBar, ENDHBar, Color(0, 0, 128), Color(128, 0, 0), 100);
+  delay(1000);
+
+  drawShapes(STARTCircle, ENDCircle, Color(0, 0, 128), Color(128, 0, 0), 100);
+  delay(1000);
+
+  drawShapes(STARTDiag1, ENDDiag1, Color(0, 0, 128), Color(128, 0, 0), 100);
+  delay(1000);
+
+  drawShapes(STARTDiag2, ENDDiag2, Color(0, 0, 128), Color(128, 0, 0), 100);
+  delay(1000);
+
+/*  drawString(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
   delay(1000);
   scrollStringUp(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 500);
   delay(1000);
@@ -243,7 +332,7 @@ void loop() {
   drawStringFadeBG(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 128, 10, 500);
   delay(1000);
   drawStringFade(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 10, 50, 500);
-  delay(1000);
+  delay(1000);*/
 }
 
 // Draws a string with foreground and background colours and a delay between characters
@@ -279,12 +368,38 @@ void drawLetter(char cChar, uint32_t fgColour, uint32_t bgColour) {
   strip.show();
 }
 
+// Draws a single shape with foreground and background colours
+void drawShape(int cChar, uint32_t fgColour, uint32_t bgColour) {
+  int x,y;
+
+  for (x=0;x<=4;x++) {
+    for (y=0;y<=4;y++) {
+      if (bitRead(S5[cChar][x],4-y)==1) {
+        strip.setPixelColor(x, y, fgColour);
+      } 
+      else if (bgColour!=-1) {
+        strip.setPixelColor(x, y, bgColour);
+      }
+    }
+  }
+  strip.show();
+}
+
+void drawShapes(int cCharStart, int cCharEnd, uint32_t fgColour, uint32_t bgColour, int iDelay)
+{
+  int y;
+  
+  for (y=cCharStart;y<=cCharEnd;y++) {
+    drawShape(y, fgColour, bgColour);
+    delay(iDelay);
+  }
+}
+
 void scrollLetterLeft(char cChar1, char cChar2, uint32_t fgColour, uint32_t bgColour, int iDuration)
 {
   int x, y, z;
 
   for (z=0;z<=5;z++) {
-
     // Letter 1
     for (x=0;x<=4;x++) {
       for (y=z;y<=4;y++) {
@@ -438,7 +553,6 @@ void drawLetterFade(char cChar1, char cChar2, uint32_t fgColour, uint32_t bgColo
   cColourStep[0] = bgColour;
   cColourStep[3] = fgColour;
 
-
   // Generate a buffer 
   for (x=0;x<=4;x++) {
     for (y=0;y<=4;y++) {
@@ -473,6 +587,8 @@ void drawStringFade(char *acString, uint32_t fgColour, uint32_t bgColour, int iS
     drawLetterFade(acString[iCount], acString[iCount+1], fgColour, bgColour, iSteps, iStepDelay);
   }
 }
+
+
 
 /* Helper functions */
 
