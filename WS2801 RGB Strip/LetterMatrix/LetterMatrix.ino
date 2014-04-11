@@ -302,7 +302,7 @@ void setup() {
 }
 
 void loop() {
-  drawShapes(STARTSquare, ENDSquare, Color(0, 0, 128), Color(128, 0, 0), 100);
+  drawShapes(STARTSquare, ENDSquare, Color(0, 0, 0), Color(0, 0, 128), 500);
   delay(1000);
 
   drawString(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
@@ -311,34 +311,34 @@ void loop() {
   drawShapes(STARTStar, ENDStar, Color(0, 0, 128), Color(128, 0, 0), 100);
   delay(1000);
 
-  drawString(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
+  drawString(" Potton Pi & Pints ", Color(128, 0, 0), Color(0, 0, 0), 500);
   delay(1000);
 
-  drawShapes(STARTVBar, ENDVBar, Color(0, 0, 128), Color(128, 0, 0), 100);
+  drawShapes(STARTVBar, ENDVBar, Color(128, 0, 0), Color(0, 128, 0), 100);
   delay(1000);
 
   scrollStringUp(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 500);
   delay(1000);
 
-  drawShapes(STARTHBar, ENDHBar, Color(0, 0, 128), Color(128, 0, 0), 100);
+  drawShapes(STARTHBar, ENDHBar, Color(0, 128, 0), Color(0, 0, 128), 100);
   delay(1000);
 
-  scrollStringLeft(" Potton Pi & Pints ", Color(128, 0, 0), Color(0, 0, 0), 500);
+  scrollStringLeft(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 500);
   delay(1000);
 
   drawShapes(STARTCircle, ENDCircle, Color(0, 0, 128), Color(128, 0, 0), 100);
   delay(1000);
 
-  drawStringFadeBG(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 128, 10, 500);
+  drawStringFadeBG(" Potton Pi & Pints ", Color(128, 0, 0), Color(0, 0, 0), 128, 10, 500);
   delay(1000);
 
-  drawShapes(STARTDiag1, ENDDiag1, Color(0, 0, 128), Color(128, 0, 0), 100);
+  drawShapes(STARTDiag1, ENDDiag1, Color(128, 0, 0), Color(0, 128, 0), 100);
   delay(1000);
 
-  drawStringFade(" Potton Pi & Pints ", Color(0, 0, 128), Color(0, 0, 0), 10, 50, 500);
+  drawStringFade(" Potton Pi & Pints ", Color(0, 128, 0), Color(0, 0, 0), 10, 50, 500);
   delay(1000);
 
-  drawShapes(STARTDiag2, ENDDiag2, Color(0, 0, 128), Color(128, 0, 0), 100);
+  drawShapes(STARTDiag2, ENDDiag2, Color(0, 128, 0), Color(0, 0, 128), 100);
   delay(1000);
 
 }
